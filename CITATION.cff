@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Si utiliza este software, cítelo con los datos de este archivo."
+title: "Pseudopozos sísmicos: generación de pseudopozos georreferenciados a partir de secciones sísmicas interpretadas"
+type: software
+version: "2.0"
+date-released: "2026-10-07"
+license: MIT
+repository-code: "https://github.com/SantiagomezaC/pseudopozos-sismicos"
+authors:
+  - family-names: "Meza Castro"
+    given-names: "Manuel Santiago"
+    affiliation: "Universidad del Norte, Programa de Geología"
+keywords:
+  - sísmica de reflexión
+  - pseudopozos
+  - conversión tiempo-profundidad
+  - Banco de Información Petrolera
+  - Cesar-Ranchería
+  - SIG
+abstract: >-
+  Herramienta de escritorio en Python que identifica una línea sísmica 2D en el
+  catálogo de navegación del Banco de Información Petrolera (BIP) de la ANH a partir
+  del texto de la imagen de la sección, permite calibrar y digitalizar los horizontes
+  interpretados y calcula, en pseudopozos distribuidos a lo largo de la línea, el
+  espesor de las unidades cenozoicas mediante velocidades interválicas
+  (e = V·ΔTWT/2). Los pseudopozos se interpolan sobre los vértices de la línea BIP en
+  su sistema de coordenadas original y se exportan a Excel y CSV para QGIS y ArcGIS.

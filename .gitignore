@@ -1,0 +1,18 @@
+# Entorno virtual creado por instalar.bat
+.venv/
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+
+# Compilación del ejecutable (PyInstaller)
+build/
+dist/
+*.spec
+
+# Resultados de trabajo del usuario (no forman parte del código)
+*_GIS.csv
+*_control.png
+*_proyecto.json
+Pseudopozos_*.xlsx
+~$*

@@ -1,0 +1,8 @@
+# Normalización de finales de línea
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+# Los .bat deben conservar CRLF para que cmd.exe los ejecute correctamente
+*.bat text eol=crlf
+*.docx binary

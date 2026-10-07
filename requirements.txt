@@ -1,0 +1,26 @@
+# Dependencias de pseudopozos_sismicos.py
+# Versiones exactas con las que se desarrolló y verificó el programa (Python 3.14.7, Windows 11).
+# Instalación:  python -m pip install -r requirements.txt
+
+# Cálculo numérico y visualización
+numpy==2.5.3
+matplotlib==3.11.2
+pillow==12.3.0
+
+# Geoespacial: sistemas de referencia (PROJ), lectura de formatos SIG (GDAL) y geometría (GEOS)
+pyproj==3.8.0
+pyogrio==0.13.0
+shapely==2.1.2
+
+# Exportación a Excel
+openpyxl==3.1.5
+
+# OCR integrado de Windows 10/11 (identificación de la línea a partir del texto de la imagen)
+winrt-runtime==3.2.1
+winrt-Windows.Media.Ocr==3.2.1
+winrt-Windows.Graphics.Imaging==3.2.1
+winrt-Windows.Storage==3.2.1
+winrt-Windows.Storage.Streams==3.2.1
+winrt-Windows.Foundation==3.2.1
+winrt-Windows.Foundation.Collections==3.2.1
+winrt-Windows.Globalization==3.2.1
